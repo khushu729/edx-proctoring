@@ -126,10 +126,8 @@ imagesize==1.2.0
     # via sphinx
 jinja2==3.0.1
     # via sphinx
-jsonfield2==3.0.3
-    # via
-    #   -c requirements/constraints.txt
-    #   -r requirements/base.in
+jsonfield==3.1.0
+    # via -r requirements/base.in
 kombu==5.1.0
     # via celery
 lxml==4.6.3
